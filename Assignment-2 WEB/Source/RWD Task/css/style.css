@@ -1,0 +1,35 @@
+/* Write your normal css which does not use css from bootstrap here*/
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 1000px;
+    height: 250px;
+    background-color: white;
+}
+.flex-item {
+
+    width: 250px;
+    height: 150px;
+
+}
+.big-image{
+    width:800px;
+    height: 250px;
+}
+
+.total-images{
+    float: right;
+}
+.bean{
+    float: left;
+}
+.flex-item{
+    height: 250px;
+    width:275px;
+}
+h3{
+    font-family: Calibri;
+    font-size: 24px;
+    color: #747704;
+}
