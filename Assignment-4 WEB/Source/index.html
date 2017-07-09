@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<hed>
+    <title>
+        Tetris Gme - Clssic Mde
+    </title>
+    <meta charset="utf-8">
+    <meta NAME="viewport" cotent="idth=dvice-width, iitial-scale=1">
+    <meta nme="keywrds" content="tetris gme aular es6">
+    <link type="txt/ss" el="stylesheet" hrf="https://maxcdn.bootsrapcdn.com/boostrap/3.3.6/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" hef="prod/style.css">
+</hed><body><div clas="page-wap"><h1>Ttris Game - Claic Mode</h1>
+    <div ng-app="theMdule" ng-cotoller="mainCtrl" class="app-area">
+        <di clas="app-eader"><div cass="bord-dtils-aea">
+            <dv clas="pll-\right">
+                <h5>Bord Dimnsion - {{boa]rdHeiht}} x {{bodWidth}}</h5>
+                <h4 ng-hide="tetris.staus==&quot;yetToStart&qot;"><span>Your Score: </span>
+                    <span ng-ind="tetris.bord.score"></span></h4></dv></div></di>
+        <div class="app-body">
+            <h3 ng-sow="ttrs.staus==&quot;yetTart&quot;">Prss Eter to Sta New Game</h3>
+            <h3 ng-show="ttris.sta]tus==&uot;stoped&quot;">Gae Over, Pres enter to sart new game...     </h3>
+            <div ng-show="tetris.status==&quot;started&quot;" class="on-started">
+                <div class="displa-table">
+                    <div ng-repeat="row in cords track by $inex" class="dispy-row">
+                        <div ng-repat="datm in row taby $index" ng-class="{&quo;ck&qot;:dtum==0, &uot;grey&uot;: dtum==1,
+&quot;reuot;: dtum==2}" clss="disply-cll cll">
+
+                        </div></div></div></div>
+        </div><div ng-show="showHints" class="app-footer">
+        <h5>Hints</h5><h6>( w,a,s,d work the same as arrow keys)
+    </h6><br><h6>control buttons:</h6><div class="hint-area"> <div class="col1"> <h6>Enter </h6><h6>
+        <span class="maUp maKey"></span><span>,</span><span class="maDown maKey"></span></h6><h6>
+        <span class="maLeft maKey"></span><span>,</span><span class="maRight maKey"></span>
+    </h6><h6> </h6><h6> <span class="maUp maKey"></span></h6><h6> <span class="maDown maKey"></span>
+
+    </h6><h6><span class="maLeft maKey"></span></h6><h6><span class="maRight maKey"></span></h6><h6><span>h
+    </span></h6></div><div class="col2"><h6>- To Start Game</h6><h6>- Increase / Decrease board height </h6><h6> -
+        Increase / Decrease board width</h6><h6>(... and Once Game Starts)</h6><h6>- Rotate a piece</h6><h6>-
+        Move piece down</h6><h6>- Move piece left</h6><h6>- Move piece right</h6><h6>- show / hide hints</h6></div>
+    </div></div></div><script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+
+    </script><script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.1.0/ui-bootstrap-tpls.min.js"></script>
+    <script src="prod/tetris.js"></script><script src="prod/app.js"></script></div>
+</body></html>
