@@ -3,4 +3,4 @@
 ### Assignment-3: https://github.com/ChanikyaMerugu/CS5590-Web-Development/wiki/LAB-Assignment-3
 ### Assignment-3: https://github.com/ChanikyaMerugu/CS5590-Web-Development/wiki/LAB-Assignment-4
 ### Assignment-3: https://github.com/ChanikyaMerugu/CS5590-Web-Development/wiki/LAB-Assignment-5
-### Assignment-3: https://github.com/ChanikyaMerugu/CS5590-Web-Development/wiki/LAB-Assignment-6
+### Assignment-6: https://github.com/ChanikyaMerugu/CS5590-Web-Development/wiki/Assignment-6
